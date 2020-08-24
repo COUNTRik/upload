@@ -88,3 +88,14 @@ on type xfs (ro,relatime,attr2,inode64,noquota)
 ``  
 #mount -o remount,rw /
 ``
+
+Аналогично как с *rd.break* изменяем пароль пользователя командой 
+passwd.
+
+Создаем файл .autorelabel для того чтобы автоматически перемаркировки файловой системы для SELinux. 
+
+``
+#touch /.autorelabel
+``
+
+Перезагружаем систему и заходим с новым паролем.
