@@ -65,7 +65,7 @@ Vagrant.configure("2") do |config|
                     end
             end
 
-            box.vm.provision "shell", path: "scripts/lvm.sh"
+            box.vm.provision "shell", path: "scripts/rename_vg.sh"
 
         end
      end
