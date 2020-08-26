@@ -86,7 +86,7 @@
 ``
 
 
-*on type xfs (ro,relatime,attr2,inode64,noquota)*
+*/ on type xfs (ro,relatime,attr2,inode64,noquota)*
 
 
 По аналогии с предыдущим способом перемонтируем корневую файловую систему в режиме *rw* чтения\запись.
